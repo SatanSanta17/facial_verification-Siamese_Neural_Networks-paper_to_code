@@ -1,0 +1,30 @@
+Plan:
+A. Setup:
+    1. Install Dependencies
+    2. Import Tensorflow Layers
+    3. Setup GPU Growth
+    4. Create Data Folders
+
+B. Collect Positive and Anchors
+    1. Untar Labelled Faces in the Wild Dataset
+    2. Collect Positive and Anchor Classes
+
+C. Load and Preprocess Images
+    1. Preprocess images
+    2. Create positive and negative
+    samples
+    3. Load data into TF Dataloader
+
+D. Model Engineering
+    1. Build an embedding layer
+    2. Create an L1 Distance Layer
+    3. Compile the Siamese Network
+
+E. Training
+    1. Set Up a Loss Function
+    2. Set Up an Optimizer
+    3. Build a Custom Training Step
+    4. Create a Training Loop
+    5. Train the MODEL
+
+F. Evaluate Model

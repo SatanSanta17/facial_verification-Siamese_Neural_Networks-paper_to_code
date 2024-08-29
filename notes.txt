@@ -1,0 +1,7 @@
+The basic flow for training on one batch is as follows:
+1. Make a prediction
+2. Calculate loss
+3. Derive gradients
+4. Calculate new weights and apply
+
+Each batch in the dataset is comprised of 16 samples, each of which contains an anchor image, a positive or negative image and a label.
