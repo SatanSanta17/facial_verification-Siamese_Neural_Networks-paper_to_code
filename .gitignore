@@ -1,0 +1,11 @@
+training_checkpoints/
+data/
+.ipynb_checkpoints/
+siamesemodel.keras
+steps.txt
+README.md
+paper.pdf
+notes.txt
+model_prep.ipynb
+model_diagram.png
+img_format_converter.py
